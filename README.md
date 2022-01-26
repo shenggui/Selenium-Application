@@ -1,2 +1,2 @@
 # Selenium-Application
-Some projects based on python selenium
+Some projects based on python selenium.
