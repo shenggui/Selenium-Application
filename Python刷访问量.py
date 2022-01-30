@@ -48,12 +48,7 @@ def create_headers():
 
 def startworking():
 
-    page_list = ['https://blog.csdn.net/qq_45717425/article/details/122639288', 'https://blog.csdn.net/qq_45717425/article/details/122638358',
-                 'https://blog.csdn.net/qq_45717425/article/details/122638191', 'https://blog.csdn.net/qq_45717425/article/details/122622663',
-                 'https://blog.csdn.net/qq_45717425/article/details/122622520', 'https://blog.csdn.net/qq_45717425/article/details/122622459',
-                 'https://blog.csdn.net/qq_45717425/article/details/122621085', 'https://blog.csdn.net/qq_45717425/article/details/122620464',
-                 'https://blog.csdn.net/qq_45717425/article/details/122432586', 'https://download.csdn.net/download/qq_45717425/45358584',
-                 'https://blog.csdn.net/qq_45717425/article/details/121170104', 'https://zhuanlan.zhihu.com/p/460159171']
+    page_list = ['https://zhuanlan.zhihu.com/p/460159171']  # 这里写你要刷访问量的网页地址
     # 调用请求头
     # headers = create_headers()
     proxy_pool = create_proxy_pool()
